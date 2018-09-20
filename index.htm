@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="Sistem Informasi Pertanahan - Dinas Perumahan dan Permukiman Provinsi Jawa Barat">
+    <meta name="author" content="Simdaltaru">
+    <link rel="icon" type="image/png" href="src/favicon.png">
+    <link href="src/c_glip.css" rel="stylesheet" type="text/css" media="all">
+    <link href="src/web_css.css" rel="stylesheet" type="text/css" media="all">
+    <link href="src/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+    <link href="src/m_slider.css" rel="stylesheet" type="text/css" media="all">
+    <link href="src/ticker-style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="src/jquery.css" rel="stylesheet" type="text/css" media="all">
+    <link href="src/feature-carousel.css" rel="stylesheet" type="text/css" media="all">
+    <script src="src/jquery-2.js"></script>
+    <script src="src/common_function.js"></script>
+    <script src="src/simplemodal.js"></script>
+    <script src="src/jquery.js"></script>
+    <script src="src/jqFancyTransitions.js"></script>
+    <script src="src/jquery_002.js"></script>
+    <title>Selamat Datang - Sistem Informasi Pertanahan - Dinas Perumahan dan Permukiman Provinsi Jawa Barat</title>
+</head>
+
+<body>
+    <div id="head_container">
+        <div id="header"></div>
+    </div>
+    <div id="menu_container" class="default">
+        <div id="top_menu" class="unselect">
+            <ul id="nav">
+                <li><a href="#web/home">Beranda</a></li>
+                <li class="par"><a href="javascript:void(0);" id="menu_50" class="bullet">Profil</a>
+                    <ul>
+                        <li><a href="javascript:void(0);" id="menu_97">Visi dan Misi</a></li>
+                        <li><a href="javascript:void(0);" id="menu_51">Profil Disperkim</a></li>
+                        <li><a href="javascript:void(0);" id="menu_52">Tupoksi</a></li>
+                        <li style="border: none;"><a href="javascript:void(0);" id="menu_61">Dasar Hukum</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0);">Berita dan Artikel</a></li>
+                <li class="par"><a href="javascript:void(0);" id="menu_56" class="bullet">Pelayanan</a>
+                    <ul>
+                        <li><a href="javascript:void(0);" id="menu_57">1. Izin Lokasi</a></li>
+                        <li><a href="javascript:void(0);" id="menu_58">2. Pengadaan Tanah Untuk Kepentingan Umum</a></li>
+                        <li><a href="javascript:void(0);" id="menu_71">3. Penyelesaian Sengketa Tanah Garapan</a></li>
+                        <li><a href="javascript:void(0);" id="menu_59">4. Penyelesaian Masalah Ganti Kerugian ...</a></li>
+                        <li><a href="javascript:void(0);" id="menu_60">5. Penetapan Subyek dan Obyek Redistribusi Tanah ...</a></li>
+                        <li><a href="javascript:void(0);" id="menu_101">6. Penetapan Tanah Ulayat</a></li>
+                        <li><a href="javascript:void(0);" id="menu_102">7. Pemanfaatan dan Penyelesaian Masalah Tanah Kosong</a></li>
+                        <li><a href="javascript:void(0);" id="menu_103">8. Izin Membuka Tanah</a></li>
+                        <li style="border: none;"><a href="javascript:void(0);" id="menu_104">9. Perencanaan Penggunaan Tanah ...</a></li>
+                    </ul>
+                </li>
+                <li class="par"><a href="javascript:void(0);" id="menu_62" class="bullet">Pengaduan</a>
+                    <ul>
+                        <li><a href="javascript:void(0);" id="menu_67">Pertanyaan (Live Chat)</a></li>
+                        <li><a href="#web/pengaduan" id="menu_68">Kirim Pengaduan</a></li>
+                        <li style="border: none;"><a href="javascript:void(0);" id="menu_81">Permohonan Rekomendasi</a></li>
+                    </ul>
+                </li>
+                <li class="par"><a href="javascript:void(0);" id="menu_63" class="bullet">Statistik</a>
+                    <ul>
+                        <li><a href="#web/statistik_pengaduan" id="menu_85">Statistik Pengaduan</a></li>
+                        <li style="border: none;"><a href="#web/laporan_pengaduan" id="menu_86">Laporan Pengaduan</a></li>
+                    </ul>
+                </li>
+                <li class="par"><a href="javascript:void(0);" id="menu_65" class="bullet">Galeri</a>
+                    <ul>
+                        <li><a href="javascript:void(0);" id="menu_82">Foto</a></li>
+                        <li style="border: none;"><a href="javascript:void(0);" id="menu_83">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0);">Data Spasial</a></li>
+                <li><a href="javascript:void(0);">Kontak</a></li>
+                <li><a href="javascript:void(0);">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        $('.marquee').marquee({
+            duration: 20000,
+            duplicated: true,
+            pauseOnHover: true
+        });
+    });
+
+    </script>
+    <div class="container clearfix radius_3 shadow">
+        <div class="top_bar">
+            <div class="marquee" style="line-height:30px; margin: 0px 10px; overflow:hidden; color:#060; font-family:'Arial Black',Arial; text-transform:uppercase; letter-spacing:1px;">
+                <div>
+                    <div>
+                        <strong><a href="#" style="color:#060;">Izin Lokasi mencakup: Penerimaan permohonan dan pemeriksaan kelengkapan persyaratan.</a> </strong><strong><a href="#" style="color:#060;">Penyelesaian Sengketa Tanah Garapan Mencakup: Pencegahan meluasnya dampak sengketa tanah garapan.</a></strong> </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            var carousel = $("#carousel").featureCarousel();
+        });
+
+        </script>
+        <div class="wrap_kolom clearfix" style="margin:10px 5px 2px 5px">
+            <div class="dua_kolom kol_kiri" style="padding:0px; margin:0px;">
+                <div class="radius_3 cont_padding_left" style="background:url('src/back_slider.jpg') center center no-repeat;">
+                    <div class="carousel-container">
+                        <div id="carousel">
+                            <div class="carousel-feature"><img alt="#" class="carousel-image" style="height:300px; width:400px;" src="src/400_922c290ffcmjq.jpg" />
+                                <div class="carousel-caption">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="carousel-feature"><img alt="#" class="carousel-image" style="height:300px; width:400px;" src="src/400_922b61e720eck.jpg" />
+                                <div class="carousel-caption">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="carousel-feature"><img alt="#" class="carousel-image" style="height:300px; width:400px;" src="src/400_922ae4fe0apvs.jpg" />
+                                <div class="carousel-caption">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="carousel-feature"><img alt="#" class="carousel-image" style="height:300px; width:400px;" src="src/400_9229f53f55sqz.jpg" />
+                                <div class="carousel-caption">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="carousel-feature"><img alt="#" class="carousel-image" style="height:300px; width:400px;" src="src/400_922963f43cntt.jpg" />
+                                <div class="carousel-caption">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_padding_left">
+                    <div class="content clearfix radius_3 shadow" id="cont_55953ce98ffb3">
+                        <h2><a href="#web/cat/55953ce98ffb3">Gelombang Tinggi Masih Membayangi Pemukiman Warga di Pesisir Sukabumi</a></h2>
+                        <div class="info radius_3">12 September 2018 21:38 oleh <em>Administrator</em></div>
+                        <div class="det_content"><img src="src/120_925188d1d9wsb.jpg" alt="." style="width:120px;">PALABUHANRATU, (PR).- Empasan gelombang tinggi di sepanjang pesisir Pantai Selatan Palabuhanratu, Minggu 29 Juli 2018, masih terus membayangi aktivitas warga. Gelombang tinggi yang terjadi sepekan terakhir pada tengah malam hingga pagi ini sangat mencemaskan. Hampir setiap hari warga yang tengah tidur harus mendengar gemuruh gelombang yang cukup menakutkan.Untuk mengantisipasi berbagai kemungkinan…
+                            <div class="kanan"><a href="#web/cat/55953ce98ffb3" class="btn btn-success btn-sm"><b>Selengkapnya...</b></a></div>
+                        </div>
+                    </div>
+                    <div class="content clearfix radius_3 shadow" id="cont_5595371344a12">
+                        <h2><a href="#web/cat/5595371344a12">Dinas Perumahan dan Permukiman Provinsi Jawa Barat</a></h2>
+                        <div class="info radius_3">12 September 2018 21:36 oleh <em>Admin</em></div>
+                        <div class="det_content"><img src="src/120_922c290ffcmjq.jpg" alt="." style="width:120px;">Dinas Perumahan dan Permukiman Provinsi Jawa Barat merupakan salah satu unsur Organisasi Pemerintah Daerah (OPD) Provinsi Jawa Barat yang mempunyai Tugas pokok melaksanakan urusan pemerintahan daerah bidang permukiman dan perumahan berdasarkan asas otonomi, dekonsentrasi dan tugas pembantuan, serta kebijakan teknis urusan bidang permukiman dan perumahan ang meliputi tata permukiman dan perumahanBerdasarkan…
+                            <div class="kanan"><a href="#web/cat/5595371344a12" class="btn btn-success btn-sm"><b>Selengkapnya...</b></a></div>
+                        </div>
+                    </div>
+                    <div class="content clearfix radius_3 shadow" id="cont_5589dd5daa7bc">
+                        <h2><a href="#web/cat/5589dd5daa7bc">Jabar dan Banten Sepakati Pendirian Kota Baru </a></h2>
+                        <div class="info radius_3">12 September 2018 21:50 oleh <em>Administrator</em></div>
+                        <div class="det_content"><img src="src/120_922b61e720eck.jpg" alt="." style="width:120px;">Pemerintah Provinsi Jawa Barat menyepakati pembentukan Kota Baru Publik Maja bersama Menteri Pekerjaan Umum dan Perumahan Rakyat dan Provinsi Banten di Jakarta, Senin 27 Juni 2016. Rencananya, kota baru tersebut akan dibangun di atas lahan seluas 19.000 hektare yang melibatkan dua daerah lainnya. Sekretaris Daerah Jabar Iwa Karniwa mengatakan, pembentukan Kota Baru Publik Maja tersebut dilatarbelakangi…
+                            <div class="kanan"><a href="#web/cat/5589dd5daa7bc" class="btn btn-success btn-sm"><b>Selengkapnya...</b></a></div>
+                        </div>
+                    </div>
+                    <div class="content clearfix radius_3 shadow" id="cont_5556dc5b22386">
+                        <h2><a href="#web/cat/5556dc5b22386">Masih Ada Permukiman Kumuh di Cimahi, Dibutuhkan Pembebasan Lahan</a></h2>
+                        <div class="info radius_3">12 September 2018 21:47 oleh <em>Admin</em></div>
+                        <div class="det_content"><img src="src/120_922ae4fe0apvs.jpg" alt="." style="width:120px;">Meski Cimahi masuk kawasan perkotaan, namun masih terdapat permukiman yang tergolong kawasan kumuh. Penataan kawasan kumuh menjadi urusan wajib Pemkot Cimahi sebagai bagian dari program penataan kota tahun 2019. Dibutuhkan pembebasan lahan untuk memenuhi sarana dan prasarana umum kebutuhan masyarakat. Hal itu diungkapkan Kepala Dinas Perumahan Kawasan Pemukiman (DPKP) Kota Cimahi M Nur Kuswandana…
+                            <div class="kanan"><a href="#web/cat/5556dc5b22386" class="btn btn-success btn-sm"><b>Selengkapnya...</b></a></div>
+                        </div>
+                    </div>
+                    <div class="content clearfix radius_3 shadow" id="cont_5556db5f7cb94">
+                        <h2><a href="#web/cat/5556db5f7cb94">Permukiman di Bantaran Sungai Memperbesar Daya Rusak Potensi Banjir</a></h2>
+                        <div class="info radius_3">12 September 2018 21:46 oleh <em>Admin</em></div>
+                        <div class="det_content"><img src="src/120_9267bc20bcwks.jpg" alt="." style="width:120px;">BANDUNG, (PR).- Maraknya permukiman di bantaran memperbesar daya rusak potensi banjir bandang di sungai-sungai di Kota Bandung.&nbsp; Deretan rumah warga ini juga berpeluang menjadi korban bencana yang bisa sewaktu-waktu datang.Kepala Dinas Pekerjaan Umum (PU) Kota Bandung Arief Prasetya&nbsp; menyatakan, keberadaan bangunan-bangunan ilegal di bantaran sungai merupakan permasalahan yang terus…
+                            <div class="kanan"><a href="#web/cat/5556db5f7cb94" class="btn btn-success btn-sm"><b>Selengkapnya...</b></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+            $(function() {
+                $("#slideshowHolder").jqFancyTransitions({ width: 360, height: 200, delay: 3000, position: 'bottom', direction: 'fountain' });
+            });
+
+            </script>
+            <div class="tiga_kolom kol_kanan radius_3">
+                <div class="cont_padding_left">
+                    <div class="menu_title title_bg radius_3">Konten Populer</div>
+                    <div class="info_teks" style="margin-bottom:6px;">
+                        <div class="content_list clearfix" id="cont_5556db5f7cb94">
+                            <h2><a href="#web/cat/5556db5f7cb94">Permukiman di Bantaran Sungai Memperbesar Daya Rusak Potensi Banjir</a></h2>
+                            <div class="det_content"><img src="src/s_9267bc20bcwks.jpg" alt=".">BANDUNG, (PR).- Maraknya permukiman di bantaran memperbesar daya rusak potensi banjir bandang di sungai-sungai di Kota…
+                            </div>
+                        </div>
+                        <div class="content_list clearfix" id="cont_55953ce98ffb3">
+                            <h2><a href="#web/cat/55953ce98ffb3">Gelombang Tinggi Masih Membayangi Pemukiman Warga di Pesisir Sukabumi</a></h2>
+                            <div class="det_content"><img src="src/s_925188d1d9wsb.jpg" alt=".">PALABUHANRATU, (PR).- Empasan gelombang tinggi di sepanjang pesisir Pantai Selatan Palabuhanratu, Minggu 29 Juli 2018,…
+                            </div>
+                        </div>
+                        <div class="content_list clearfix" id="cont_5589dd5daa7bc">
+                            <h2><a href="#web/cat/5589dd5daa7bc">Jabar dan Banten Sepakati Pendirian Kota Baru </a></h2>
+                            <div class="det_content"><img src="src/s_922b61e720eck.jpg" alt=".">
+                                <p></p>
+                                <p></p>
+                                <p>Pemerintah Provinsi Jawa Barat menyepakati pembentukan Kota Baru Publik Maja bersama Menteri Pekerjaan…
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content_list clearfix" id="cont_5556dc5b22386">
+                            <h2><a href="#web/cat/5556dc5b22386">Masih Ada Permukiman Kumuh di Cimahi, Dibutuhkan Pembebasan Lahan</a></h2>
+                            <div class="det_content"><img src="src/s_922ae4fe0apvs.jpg" alt=".">Meski Cimahi masuk kawasan perkotaan, namun masih terdapat permukiman yang tergolong kawasan kumuh. Penataan kawasan kumuh…
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_title title_bg radius_3">Galeri</div>
+                    <div class="clearfix" id="wadah_baner" style="margin-bottom:10px;">
+                        <div class="banner radius_3">
+                            <div id="slideshowHolder" style="background-image: url('src/400_923398c19epte.jpg'); width: 360px; height: 200px; position: relative; background-position: left top;">
+                                <img alt="" style="width: 100%; display: none;" src="src/400_923398c19epte.jpg"><img alt="" style="width: 100%; display: none;" src="src/400_9232fab5acgxu.png">
+                                <div class="ft-title" id="ft-title-slideshowHolder" style="position: absolute; bottom: 0px; left: 0px; z-index: 1000; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); opacity: 0;"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder1" style="width: 36px; height: 200px; float: left; position: absolute; background-position: 0px top; left: 0px; bottom: 0px; opacity: 1; background-image: url(&quot;#files/dokumen/400_9232fab5acgxu.png&quot;);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder2" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -36px top; left: 36px; bottom: 0px; opacity: 1; background-image: url(&quot;#files/dokumen/400_9232fab5acgxu.png&quot;);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder3" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -72px top; left: 72px; bottom: 0px; opacity: 1; background-image: url(src/400_9232fab5acgxu.png);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder4" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -108px top; left: 108px; bottom: 0px; opacity: 1; background-image: url(src/400_9232fab5acgxu.png);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder5" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -144px top; left: 144px; bottom: 0px; opacity: 1; background-image: url(&quot;#files/dokumen/400_9232fab5acgxu.png&quot;);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder6" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -180px top; left: 180px; bottom: 0px; opacity: 1; background-image: url(src/400_9232fab5acgxu.png);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder7" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -216px top; left: 216px; bottom: 0px; opacity: 1; background-image: url(&quot;#files/dokumen/400_9232fab5acgxu.png&quot;);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder8" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -252px top; left: 252px; bottom: 0px; opacity: 1; background-image: url(&quot;#files/dokumen/400_9232fab5acgxu.png&quot;);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder9" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -288px top; left: 288px; bottom: 0px; opacity: 1; background-image: url(&quot;#files/dokumen/400_9232fab5acgxu.png&quot;);"></div>
+                                <div class="ft-slideshowHolder" id="ft-slideshowHolder10" style="width: 36px; height: 200px; float: left; position: absolute; background-position: -324px top; left: 324px; bottom: 0px; opacity: 1; background-image: url(&quot;#files/dokumen/400_9232fab5acgxu.png&quot;);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_title title_bg radius_3">Live Chat</div>
+                    <div class="info_teks" style="margin-bottom:6px; text-align:center;">
+                        <div class="link_chat fb"><img src="src/sh-fb.png"></div>
+                        <div class="link_chat gplus"><img src="src/sh-gplus.png"></div>
+                        <div class="link_chat line"><img src="src/sh-line.png"></div>
+                        <div class="link_chat tw"><img src="src/sh-tw.png"></div>
+                        <div class="link_chat whatsap"><img src="src/sh-whatsap.png"></div>
+                        <div class="clearing"></div>
+                    </div>
+                    <div class="menu_title title_bg radius_3">Informasi Layanan</div>
+                    <div class="info_teks grid" style="margin-bottom:6px;">
+                        <table style="width:100%">
+                            <tbody>
+                                <tr>
+                                    <td>Total Aplikasi:</td>
+                                    <td class="kanan"><strong>326</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Aplikasi Sudah Ditangani:</td>
+                                    <td class="kanan"><strong>149</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Aplikasi Belum Ditangani:</td>
+                                    <td class="kanan"><strong>177</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="menu_title title_bg radius_3">Link Terkait</div>
+                    <div class="info_teks" style="margin-bottom:6px;">
+                        <div class="content_list clearfix" style="border:none;">
+                            <h2 style="font-size:15px; border-bottom: 1px solid #ccc; padding: 5px 0px; margin: 0px;"><a href="http://jabar.atrbpn.go.id/" target="_blank">ATR/BPN Jawa Barat</a></h2>
+                            <h2 style="font-size:15px; border-bottom: 1px solid #ccc; padding: 5px 0px; margin: 0px;"><a href="http://disperkim.jabarprov.go.id/" target="_blank">Disperkim Jabar</a></h2> </div>
+                    </div>
+                    <div class="menu_title title_bg radius_3">Statistik</div>
+                    <div class="info_teks grid" style="margin-bottom:6px;">
+                        <table style="width:100%">
+                            <tbody>
+                                <tr>
+                                    <td>Kunjungan Hari Ini:</td>
+                                    <td class="kanan"><strong>1.021</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Kunjungan Kemarin:</td>
+                                    <td class="kanan"><strong>1.490</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Total Kunjungan:</td>
+                                    <td class="kanan"><strong>10.201</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="unselect radius_3">
+        <div class="content">
+            Sistem Informasi Pertanahan - Dinas Perumahan dan Permukiman Provinsi Jawa Barat © 2018</div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        show_modal("splash", 700, 500);
+    });
+
+    </script>
+    <div class="modal_form" id="splash">
+        <div class="title">PENJELASAN DAN KETENTUAN</div>
+        <div class="content">
+            <div style="height: 400px; overflow:auto">
+                <div style="width:600px;">
+                    <h2 style="text-align:center; font-size:18px;">PENJELASAN DAN KETENTUAN</h2>
+                    <ul>
+                        <li>Situs ini dikembangkan dengan tujuan mewujudkan keterbukaan informasi kepada publik sekaligus meningkatkan akses masyarakat akan data dan informasi ketataruangan, pertanahan, dan pembangunan gedung/bangunan, serta data dan informasi lain yang dimiliki oleh Dinas Perumahan dan Permukiman Provinsi Jawa Barat;</li>
+                        <li>Dinas Perumahan dan Permukiman Provinsi Jawa Barat berkomitmen agar data dan informasi yang ada akan selalu diupdate secara periodik, diperkaya dengan infromasi terkini, dilengkapi dengan data-data tambahan dari SKPD atau instansi lain terkait, serta disempurnakan keakuratan dan ketelitiannya;</li>
+                        <li>Masyarakat diharapkan untuk berpartisipasi aktif dalam memperkaya informasi yang ada dalam situs ini agar semakin lengkap dan akurat. Untuk itu, Dinas Perumahan dan Permukiman Provinsi Jawa Barat akan terus melakukan terobosan dalam menyediakan feature-feature yang dapat mempermudah masyarakat dalam melakukan penambahan dan updating data/infomasi;
+                        </li>
+                        <li>Pemakaian data dan informasi dalam situs ini sebagai dokumen perizinan dan dokumen resmi lainnya (terutama terkait ketataruangan dan pertanahan) sangat tidak disarankan. Informasi yang dapat digunakan dalam hal perizinan tetap mengacu pada Ketetapan Rencana Kota (KRK) yang diterbitkan oleh instansi yang berwenang;</li>
+                    </ul>
+                    <p>Informasi tentang situs ini dan berbagai masukan untuk perbaikan situs ini dapat disampaikan dengan menghubungi langsung atau melalui email pada alamat di bawah ini:</p>
+                    <p>
+                        <strong>Dinas Perumahan dan Permukiman Provinsi Jawa Barat</strong>
+                        <br> Jl. Kawaluyaan Indah Raya No.4, Jatisari, Buahbatu, Kota Bandung, Jawa Barat 40286, Indonesia. Nomor telepon: (022) 7319735
+                    </p>
+                </div>
+            </div>
+            <div style="margin-top:10px; text-align:center;">
+                <a href="javascript:void(0);" class="btn btn-sm btn-primary" onClick="close_modal();"><strong>Saya memahami dan menyetujui ketentuan di atas</strong></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
